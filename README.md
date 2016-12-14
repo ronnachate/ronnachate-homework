@@ -9,7 +9,7 @@ Ronnachate.Homework.
     - dotnet restore
 
 ## Testing
-    - dnx test -parallel none(-parallel none to fix xunit with mono)
+    - dotnet test
 
 ## Apllication run command
     - dotnet run [array of block heigth eprate by comma eg. dotnet run 1,2,0,3 ]
