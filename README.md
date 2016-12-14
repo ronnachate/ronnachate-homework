@@ -12,7 +12,7 @@ Ronnachate.Homework.
     - dotnet test
 
 ## Apllication run command
-    - dotnet run [array of block heigth eprate by comma eg. dotnet run 1,2,0,3 ]
+    - dotnet run [array of block heigth separate by comma eg. dotnet run 1,2,0,3 ]
     
  ##Issue work around
     - Nothing
