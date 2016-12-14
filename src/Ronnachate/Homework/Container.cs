@@ -19,7 +19,7 @@ namespace Ronnahcate.Homework
                foreach( var height in blockHeights.Reverse<int>()  ) {
                    blockHeights.Remove(height);
                    // get max height left
-                   var maxHeigthLeft  = blockHeights.OrderByDescending( h => h).FirstOrDefault();
+                   var maxHeigthLeft = blockHeights.OrderByDescending( h => h).FirstOrDefault();
                    // height >= startingEdge, there are starting edge and ending edge already
                    // So put count of block i nthis section
                    if( height >= startingEdge ) {
@@ -37,7 +37,7 @@ namespace Ronnahcate.Homework
                    }
                    else {
                        // add block in currect section
-                       blockContain =  blockContain +( startingEdge - height);  
+                       blockContain =  blockContain + ( startingEdge - height );  
                    }
                }
                return totalContain;
