@@ -19,6 +19,8 @@ namespace Ronnahcate.Homework.Test
             Assert.Equal(3, Container.GetContainerSize(testData));
             testData = new List<int> {3,0,1};
             Assert.Equal(1, Container.GetContainerSize(testData));
+            testData = new List<int> {9};
+            Assert.Equal(0, Container.GetContainerSize(testData));
         }
 
         [Fact]
